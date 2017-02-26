@@ -1,14 +1,10 @@
 {
-  "name": "egg-boilerplate-plugin",
-  "version": "1.7.0",
-  "description": "boilerplate for egg plugin",
-  "homepage": "https://github.com/eggjs/egg-boilerplate-plugin",
-  "bugs": "https://github.com/eggjs/egg/issues",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:eggjs/egg-boilerplate-plugin.git"
-  },
-  "author": "dead_horse",
+  "name": "egg-boilerplate-nuxt",
+  "version": "1.0.0",
+  "description": "boilerplate for nuxt-egg framework",
+  "homepage": "https://github.com/nuxt-egg/egg-boilerplate-nuxt",
+  "bugs": "https://github.com/nuxt-egg/egg-boilerplate-nuxt/issues",
+  "author": "liyl",
   "scripts": {
     "autod": "autod",
     "lint": "eslint .",
@@ -17,10 +13,9 @@
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "build": "egg-init dist --force --silent --template=./",
-    "install-deps": "cd dist && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
+    "install-deps": "cd dist && node ../node_modules/.bin/autod && node ../node_modules/.bin/npminstall"
   },
   "dependencies": {
-
   },
   "devDependencies": {
     "autod": "^2.7.1",

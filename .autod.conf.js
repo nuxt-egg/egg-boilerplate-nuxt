@@ -16,15 +16,13 @@ module.exports = {
   devdep: [
     'autod',
     'eslint',
-    'eslint-config-egg',
     'egg-ci',
     'egg-init',
-    'npminstall',
-    'webstorm-disable-index',
+    'npminstall'
   ],
   keep: [
   ],
   semver: [
   ],
-  registry: 'https://r.cnpmjs.org',
+  registry: 'http://registry.npm.taobao.org',
 };

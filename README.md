@@ -1,3 +1,3 @@
-# egg-boilerplate-plugin
+# egg-boilerplate-nuxt
 
-Boilerplate for egg plugin. See [egg-init](https://github.com/eggjs/egg-init).
+Boilerplate for nuxt-egg. See [egg-init](https://github.com/eggjs/egg-init).

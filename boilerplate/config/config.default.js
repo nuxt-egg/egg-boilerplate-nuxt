@@ -1,10 +1,9 @@
 'use strict';
 
-/**
- * {{name}} default config
- * @member Config#{{name}}
- * @property {String} SOME_KEY - some description
- */
-exports.{{name}} = {
-
+module.exports = {
+  middleware: [ 'errorHandler' ],
+  errorHandler: {
+    match: '/api',
+  },
+  nuxt: require('./config.nuxt.js'),
 };

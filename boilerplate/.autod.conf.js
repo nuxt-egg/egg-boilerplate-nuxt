@@ -8,19 +8,16 @@ module.exports = {
     'benchmark',
   ],
   devdep: [
-    'egg',
-    'egg-ci',
     'egg-bin',
+    'nuxt-egg',
     'autod',
     'eslint',
-    'eslint-config-egg',
-    'supertest',
-    'webstorm-disable-index',
+    'supertest'
   ],
   exclude: [
     './test/fixtures',
     './docs',
     './coverage',
   ],
-  registry: 'https://r.cnpmjs.org',
+  registry: 'http://registry.npm.taobao.org',
 };

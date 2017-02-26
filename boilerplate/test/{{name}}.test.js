@@ -22,7 +22,7 @@ describe('test/{{name}}.test.js', () => {
     return request(app.callback())
       .get('/')
       .expect(function (res) {
-        assert(/hello world/.test(res.text), true, "missing hello world");
+        assert(/hello world/.test(res.text), true, 'missing hello world');
       })
       .expect(200);
   });

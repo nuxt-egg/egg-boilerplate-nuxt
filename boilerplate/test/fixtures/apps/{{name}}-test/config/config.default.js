@@ -7,5 +7,5 @@ exports.nuxt = {
       config.resolveLoader.modules.unshift(nodeModulesDir);
     }
   },
-  keys: "{{name}}-test"
+  keys: '{{name}}-test'
 }

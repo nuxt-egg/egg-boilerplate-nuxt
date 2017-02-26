@@ -3,7 +3,8 @@
 module.exports = {
   middleware: [ 'errorHandler' ],
   errorHandler: {
-    match: '/api',
+    match: '/api'
   },
-  nuxt: require('./config.nuxt.js'),
+  nuxt: require('./config.nuxt.js')
 };
+
